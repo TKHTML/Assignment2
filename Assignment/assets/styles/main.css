@@ -1,0 +1,193 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* FONT STACKS DON'T FORGET THESE - 
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-family: "Duru Sans", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	*/
+
+body {
+	font-family: "Duru Sans", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+header {
+	width:100%;
+	height:721px;
+	background-image: url('../images/headerImg.jpg');
+}
+
+.container {
+	width:1080px;
+	margin: 0 auto;
+}
+
+div#logo {
+	float: left;
+	width: 288px;
+	height: 110px;
+	background-image: url('../images/ASABLogo.png');
+}
+
+nav {
+	width:100%;
+	background-color: rgba(0,0,0,0.3);
+	float:left;
+	padding: 12px 32px;
+}
+
+ul#vertnav {
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 18px;
+	float: right;
+	padding-top: 30px;
+	padding-right: 80px;
+}
+
+ul#vertnav li {
+	display: inline;
+	margin-left: 68px;
+}
+
+ul#vertnav li a {
+		color: #fff;
+	text-decoration: none;
+}
+
+header h3 {
+	text-align:center;
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 18px;
+	color: #fff;
+	float: right;
+	padding-top: 242px;
+	padding-right: 150px;
+}
+
+.TopLeftImg {
+	width: 490px;
+	float:left;
+	padding-top: 40px;
+}
+
+section#aboutus {
+	background-color: #fff;
+	width: 100%;
+	padding-bottom: 20px;
+	height: 750px;
+}
+
+section#aboutus h1 {
+	color: #5dcdb5;
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 36px;
+	text-align:center;
+	margin-top:83px;
+	margin-bottom:50px;
+	text-transform: uppercase;
+}
+
+#aboutText {
+	float:left;
+	font-size:18px;
+	font-family: "Duru Sans", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	margin-left:20px;
+	margin-bottom:50px;
+	width:650px;
+}
+
+.rightAbout {
+	float: right;
+	width: 394px;
+	margin-right: 10px;
+}
+
+div#quote h2{
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 24px;
+}
+
+div#quote p {
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+section#menu {
+	background-image: url('../images/menuImg.png');
+	width:100%;
+	height:475px;
+}
+
+section#menu h1 {
+	font-size:36px;
+	color:#f95971;
+	text-align:center;
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	padding-top: 50px;
+	margin-bottom:50px;
+	text-transform: uppercase;
+}
+
+.menus h2 {
+	color:#fff;
+	font-size:24px;
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.menus li {
+	font-size:18px;
+	font-family: "Duru Sans", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	padding-top:10px;
+	margin-left:10px;
+}
+
+.menuMains {
+text-align:center;
+position:absolute;
+left:10%;
+}
+
+
+.menuSides {
+text-align:center;
+left:45%;
+position:absolute;
+
+}
+
+.menuDrinks {
+text-align:center;
+position:absolute;
+right:13%;
+}
+
+footer {
+	height: 280px;
+	width: 100%;
+	background-color: #252525;
+}
+
+footer h2 {
+	font-size:24px;
+	font-family: "Krona One", "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	color:#fff;
+	padding-top:40px;
+}
+
+footer p {
+	padding-top:3px;
+	font-size:18px;
+	font-family: "Duru Sans", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	color:#fff;
+}
+
+footer aside {
+	float:right;
+	font-size:18px;
+	font-family: "Duru Sans", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	color:#fff;
+	padding: 40px 100px 0px 0px;
+}
